@@ -1,0 +1,5 @@
+p1,q1=map(int,input("Enter price and quantity of item1").split())
+p2,q2=map(int,input("Enter price and quantity of item2").split())
+p3,q3=map(int,input("Enter price and quantity of item3").split())   
+total=(p1*q1)+(p2*q2)+(p3*q3)
+print("Total bill is:",(p1*q1),"+",(p2*q2),"+",(p3*q3),"=",total )
