@@ -1,0 +1,7 @@
+a=list(map(str,input("Books=").split()))
+b=(input("Add Book:"))
+c=input("Remove Book:")
+a.append(b)
+a.remove(c)
+print("Current Books=",a)
+print("Total Books=",len(a))
